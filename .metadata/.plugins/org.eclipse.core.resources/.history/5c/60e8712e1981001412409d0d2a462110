@@ -1,0 +1,5 @@
+package com.eoeandroid.bindservice;
+
+public class HelloBindService {
+
+}

@@ -1,0 +1,25 @@
+package com.eoeandroid.helloservice;
+
+import android.app.IntentService;
+import android.content.Intent;
+
+public class HelloIntentService extends IntentService{
+
+	public HelloIntentService(String name) {
+		super("HelloInentService");
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	protected void onHandleIntent(Intent intent) {
+		// TODO Auto-generated method stub
+		System.out.println("–›œ¢8√Î");
+		try {
+			Thread.sleep(8000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+	
+
+}

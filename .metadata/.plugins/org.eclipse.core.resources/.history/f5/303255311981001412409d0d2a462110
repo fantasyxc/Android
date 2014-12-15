@@ -1,0 +1,7 @@
+package com.eoeandroid.bindservice;
+
+import android.app.Service;
+
+public class HelloBindService extends Service{
+
+}

@@ -1,0 +1,10 @@
+package com.eoeandroid.helloactivity;
+
+import android.app.Activity;
+
+public class ActivityC extends Activity {
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		
+	}
+}

@@ -1,0 +1,6 @@
+package com.eoeandroid.broadcastreceiver;
+
+
+public class HelloBroadcastReceiver extends BroadcastReceiver {
+
+}

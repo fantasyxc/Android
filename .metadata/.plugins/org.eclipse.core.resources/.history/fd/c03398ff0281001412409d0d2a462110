@@ -1,0 +1,5 @@
+package com.eoeandroid.helloservice;
+
+public class HelloService {
+
+}

@@ -1,0 +1,5 @@
+package com.eoeandroid.hellocontentprovider;
+
+public class HelloContentProvider {
+
+}
