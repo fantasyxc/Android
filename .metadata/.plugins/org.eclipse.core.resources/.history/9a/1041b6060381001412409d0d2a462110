@@ -1,7 +1,0 @@
-package com.eoeandroid.helloservice;
-
-import android.app.Service;
-
-public class HelloService extends Service{
-
-}

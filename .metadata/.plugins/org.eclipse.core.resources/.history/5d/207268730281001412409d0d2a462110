@@ -1,7 +1,0 @@
-package com.eoeandroid.helloservice;
-
-import android.app.IntentService;
-
-public class HelloIntentService extends IntentService{
-
-}

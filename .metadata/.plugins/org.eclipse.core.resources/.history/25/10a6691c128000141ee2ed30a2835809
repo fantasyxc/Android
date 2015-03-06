@@ -1,7 +1,0 @@
-package com.eoeandroid.helloactivity;
-
-
-
-public class ActivityC extends Activity {
-
-}
