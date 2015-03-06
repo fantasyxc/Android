@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">值班神算</string>
+    <string name="sytstem_brief_introduction">        	欢迎大家使用本系统。\n
+        	如果有什么意见或建议，可以及时向我反馈，谢谢。\n
+        	我的联系方式是xiachang.zh@ccb.com。</string>
+    <string name="tip_overall">值班信息</string>
+    <string name="tip_personal">个人中心</string>
+    <string name="tip_alarmclock">值班闹钟</string>
+     <string name="tip_exit">再按一次返回键退出程序</string>
+
+</resources>

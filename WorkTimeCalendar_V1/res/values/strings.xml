@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- overall setting -->
+    <string name="app_name">值班神算</string>
+    <string name="imagedescription">Image Description</string>
+    <!-- mainactivity message -->
+    <string name="Sunday">周日</string>
+    <string name="Monday">周一</string>
+    <string name="Tuesday">周二</string>
+    <string name="Wednesday">周三</string>
+    <string name="Thursday">周四</string>
+    <string name="Friday">周五</string>
+    <string name="Saturday">周六</string>
+    <string name="ondutytitlemsg">当前值班信息如下：</string>
+    <string name="tip_overall">关于</string>
+    <string name="tip_personal">个人设置</string>
+    <string name="tip_groupselection">组员设置</string>
+    <!-- exit -->
+    <string name="tip_exit">再按一次返回键退出程序</string>
+
+    <!-- about dialog -->    
+    <string name="about_intro_title">[应用简介]</string>
+    <string name="about_intro_message">        	欢迎大家使用本系统。\n如果有什么意见或建议，可以及时向我反馈，谢谢:)</string>
+    <string name="about_contact_title">[与我联系]</string>
+    <string name="about_contact_message">行内邮箱：xiachang.zh@ccb.com\n行外邮箱：fantasyxc@vip.qq.com</string>
+    <string name="about_close">关闭</string>
+
+    <!-- personalsetting dialog -->    
+    <string name="personalsetting_pickgroup_title">选择所在的班组：</string>
+    <string name="personalsetting_pickgroup_groupa">A组</string>
+    <string name="personalsetting_pickgroup_groupb">B组</string>
+    <string name="personalsetting_pickgroup_groupc">C组</string>
+    <string name="personalsetting_pickgroup_groupd">D组</string>
+    <string name="personalsetting_pickgroup_groupe">E组</string>
+    <string name="personalsetting_dayandnight_title">是否显示白晚班：</string>
+    <string name="personalsetting_maintaiday_title">是否显示维护日：</string>
+    <string name="personalsetting_save_save">保存</string>
+    <string name="personalsetting_save_cancel">取消</string>
+
+</resources>

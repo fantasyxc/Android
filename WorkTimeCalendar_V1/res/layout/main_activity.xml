@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <!-- Title -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="53.0dip"
+            android:background="#303F9F"
+            android:baselineAligned="false"
+            android:gravity="center_vertical" >
+
+            <!-- "<" -->
+
+            <LinearLayout
+                android:id="@+id/btn_pre_month"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/left_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/triangle06_states"
+                    android:duplicateParentState="true"
+                    android:text=""
+                    android:textSize="16.0dip" />
+            </LinearLayout>
+
+            <!-- Date -->
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#ffffffff"
+                    android:textSize="21.0dip" />
+            </LinearLayout>
+
+            <!-- ">" -->
+
+            <LinearLayout
+                android:id="@+id/btn_next_month"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/right_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/triangle05_states"
+                    android:duplicateParentState="true"
+                    android:text=""
+                    android:textSize="16.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Weekday -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="22.0dip"
+            android:background="#3F51B5" >
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/Sunday"
+                android:textColor="#ffffffff"
+                android:textSize="14.0dip" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/Monday"
+                android:textColor="#ffffffff"
+                android:textSize="14.0dip" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/Tuesday"
+                android:textColor="#ffffffff"
+                android:textSize="14.0dip" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/Wednesday"
+                android:textColor="#ffffffff"
+                android:textSize="14.0dip" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/Thursday"
+                android:textColor="#ffffffff"
+                android:textSize="14.0dip" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/Friday"
+                android:textColor="#ffffffff"
+                android:textSize="14.0dip" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/Saturday"
+                android:textColor="#ffffffff"
+                android:textSize="14.0dip" />
+        </LinearLayout>
+
+        <!-- Date Grid -->
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="true"
+            android:clipChildren="true"
+            android:columnWidth="55.0dip"
+            android:horizontalSpacing="1.0dip"
+            android:listSelector="@null"
+            android:numColumns="7"
+            android:paddingBottom="1.0dip"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="1.0dip" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C5CAE9"
+            android:text="@string/ondutytitlemsg"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_Current_Onduty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C5CAE9" />
+    </LinearLayout>
+    <!-- Bottom Menu -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/blue_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:padding="10dip" >
+
+            <LinearLayout
+                android:id="@+id/layout_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_layout_leftbutton"
+                android:clickable="true"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/imagedescription"
+                    android:src="@drawable/btn_icon_about" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tip_overall" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_layout_rightbutton"
+                android:clickable="true"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/imagedescription"
+                    android:src="@drawable/btn_icon_personalsetting" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tip_personal" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

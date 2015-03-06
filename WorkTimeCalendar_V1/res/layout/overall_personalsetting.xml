@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.Dialog" >
+
+    <!-- pick group -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:paddingBottom="10dp"
+            android:text="@string/personalsetting_pickgroup_title"
+            android:textSize="15sp" />
+
+        <RadioGroup
+            android:id="@+id/rg_ondutygroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rb_ondutygroupa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/radiobutton_background"
+                android:button="@android:color/transparent"
+                android:checked="true"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:text="@string/personalsetting_pickgroup_groupa"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rb_ondutygroupb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/radiobutton_background"
+                android:button="@android:color/transparent"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:text="@string/personalsetting_pickgroup_groupb"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rb_ondutygroupc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/radiobutton_background"
+                android:button="@android:color/transparent"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:text="@string/personalsetting_pickgroup_groupc"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rb_ondutygroupd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/radiobutton_background"
+                android:button="@android:color/transparent"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:text="@string/personalsetting_pickgroup_groupd"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rb_ondutygroupe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/radiobutton_background"
+                android:button="@android:color/transparent"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:text="@string/personalsetting_pickgroup_groupe"
+                android:textSize="20sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <!-- dayandnight swith -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:paddingBottom="10dp"
+            android:text="@string/personalsetting_dayandnight_title"
+            android:textSize="15sp" />
+
+        <ToggleButton
+            android:id="@+id/tb_dayandnightswitch"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textOff="不显示"
+            android:textOn="显示" />
+    </LinearLayout>
+
+    <!-- maintaiday swith -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:paddingBottom="10dp"
+            android:text="@string/personalsetting_maintaiday_title"
+            android:textSize="15sp" />
+
+        <ToggleButton
+            android:id="@+id/tb_maintaindayswitch"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textOff="不显示"
+            android:textOn="显示" />
+    </LinearLayout>
+
+    <!-- save button -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/btn_ClockDetailSave"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:text="@string/personalsetting_save_save" />
+
+        <Button
+            android:id="@+id/btn_ClockDetailCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:text="@string/personalsetting_save_cancel" />
+    </LinearLayout>
+
+</LinearLayout>
